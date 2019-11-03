@@ -103,10 +103,57 @@ textarea {
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
+  background-color: #999999;
 
 }
 
+#logo {
+  float: left;
+}
 
+#primaryLinks {
+
+  float: inside;
+
+  }
+
+#content {
+  clear: both;
+  width: 593px;
+  float: left;
+}
+
+#masthead img{
+  clear: both;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 960px;
+}
+
+#content p {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+#primaryLinks {
+  float: right;
+}
+
+#primaryLinks li {
+  display: inline;
+  align-self: center;
+  line-height: 120px;
+  padding: 10px 31px;
+}
+
+#primaryLinks menu {
+
+}
+
+#sidebarImage {
+  clear:both;
+}
 
 /* ==========================================================================
    Helper classes
