@@ -160,18 +160,23 @@ textarea {
 
 #sidebarImage {
   clear:both;
-  height: auto;
-  padding-left: 154px;
+  height: 183px;
+  align-self: center;
+
 }
 
 #sidebar{
   clear:both;
-  width:960px;
-  align-content: auto;
-
+  width:auto;
+  align-self: center;
 }
 
-
+#sidetext ol{
+  display: inline;
+  float:right;
+  width: 319px;
+  padding-top: 30px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
