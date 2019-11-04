@@ -115,7 +115,6 @@ textarea {
 #logo {
   float: left;
   width: 200px;
-  width: 200px;
 }
 
 #primaryLinks {
@@ -128,12 +127,20 @@ textarea {
   background-color: #b3d4fc;
 }
 
+#masthead{
+  clear:both;
+}
+
 #masthead img{
-  clear: both;
   background-size: cover;
-  background-position: center;
-  height: auto;
-  width: 961px;
+  background-position: top;
+  width: 960px;
+  background-color: black;
+}
+
+#content h2{
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 #content p {
@@ -143,6 +150,7 @@ textarea {
 
 #primaryLinks {
   float:right;
+  height: 200px;
 }
 
 #primaryLinks li {
@@ -150,7 +158,7 @@ textarea {
   align-self: center;
   line-height: 160px;
   padding: 10px 20px;
-  font-family: "arial";
+  font-family: serif;
   font-size: 40px;
 }
 
@@ -167,7 +175,7 @@ textarea {
 #sidebar{
   clear:both;
   width:960px;
-  align-content: auto;
+  align-content: center;
 
 }
 
